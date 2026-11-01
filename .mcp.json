@@ -2,7 +2,11 @@
   "mcpServers": {
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest"]
+      "args": ["@playwright/mcp@0.0.84"]
+    },
+    "mermaid": {
+      "command": "npx",
+      "args": ["-y", "mcp-mermaid@0.4.1"]
     }
   }
 }
